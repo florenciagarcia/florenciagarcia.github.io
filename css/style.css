@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Prata);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
+
+/*////////// GLOBAL //////////*/
+
+body {
+  font-size: 100%;
+  margin: 0;
+}
+
+p { 
+  font: 1.05em/1.7em "Roboto", sans-serif;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 0 0 .5em 0;
+}
+
+/*////////// HEADER //////////*/
+
+#intro-title {
+	position: absolute;
+	top: 3%;
+	width: 100%;
+	font: .65em "Futura W01 Book", sans-serif;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+	opacity: 0.8;
+  color: #8E164C;
+	text-align: center;
+}
+
+/*////////// LINK //////////*/
+
+a {
+    color: #cd8800;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #8E164C;
+}
+
+/*/////// LAYOUT ////////*/
+
+.wrapper {
+  width: 60em;
+  margin: 0 auto;
+}
+
+.profile-picture {
+  width: 90%;
+  height: auto;
+  /*padding-top: 8%;*/
+}
+
+.col-half {
+  float: left;
+  width: 50%;
+  position: relative;
+  height: 100vh;
+   padding: 15% 0 0;
+}
+
+/*////////// FIXES //////////*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
